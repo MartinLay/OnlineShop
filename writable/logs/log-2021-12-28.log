@@ -1,0 +1,40 @@
+CRITICAL - 2021-12-28 22:47:19 --> transaction is not a validation rules group.
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('transaction')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('transaction')
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Etalase.php(34): CodeIgniter\Validation\Validation->run(Array, 'transaction')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Etalase->buy()
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 23:20:16 --> transaction is not a validation rules group.
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('transaction')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('transaction')
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Etalase.php(34): CodeIgniter\Validation\Validation->run(Array, 'transaction')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Etalase->buy()
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-28 23:23:11 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\ci_onlineshooping\app\Views\etalase\buy.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('etalase/buy', Array, true)
+#4 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Etalase.php(68): view('etalase/buy', Array)
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Etalase->buy()
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-28 23:25:10 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\ci_onlineshooping\app\Views\etalase\buy.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('etalase/buy', Array, true)
+#4 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Etalase.php(68): view('etalase/buy', Array)
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Etalase->buy()
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

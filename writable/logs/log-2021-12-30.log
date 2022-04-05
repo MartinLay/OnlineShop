@@ -1,0 +1,304 @@
+CRITICAL - 2021-12-30 01:27:05 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\ci_onlineshooping\app\Views\etalase\buy.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('etalase/buy', Array, true)
+#4 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Etalase.php(76): view('etalase/buy', Array)
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Etalase->buy()
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Etalase))
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-30 01:32:37 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:32:37 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('2')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:33:51 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:33:51 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('2')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:33:53 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:33:53 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('2')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:35:29 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:35:29 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('3')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:39:36 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:39:36 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('4')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:44:19 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:44:19 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('5')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:45:30 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:45:30 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('5')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:53:04 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:53:04 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('5')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 01:53:07 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 01:53:07 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('5')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 02:13:38 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 02:13:38 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('6')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 02:18:02 --> Table 'finalex_onlineshp.items' doesn't exist
+CRITICAL - 2021-12-30 02:18:02 --> Table 'finalex_onlineshp.items' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('7')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 02:20:57 --> Table 'finalex_onlineshp.consumen' doesn't exist
+CRITICAL - 2021-12-30 02:20:57 --> Table 'finalex_onlineshp.consumen' doesn't exist
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('7')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 02:21:10 --> Unknown column 'transaction.id' in 'field list'
+CRITICAL - 2021-12-30 02:21:10 --> Unknown column 'transaction.id' in 'field list'
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('7')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 02:27:18 --> Unknown column 'transaction.id' in 'field list'
+CRITICAL - 2021-12-30 02:27:18 --> Unknown column 'transaction.id' in 'field list'
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('7')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-30 02:27:21 --> Unknown column 'transaction.id' in 'field list'
+CRITICAL - 2021-12-30 02:27:21 --> Unknown column 'transaction.id' in 'field list'
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->view('7')
+#8 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-30 12:19:53 --> Undefined variable $transaction
+#0 C:\xampp\htdocs\ci_onlineshooping\app\Views\transaction\view_transaction.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('transaction/vie...', Array, true)
+#4 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(39): view('transaction/vie...', Array)
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->index()
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-30 12:22:17 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('transaction/vie...', Array, true)
+#3 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(39): view('transaction/vie...', Array)
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->index()
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-30 12:45:25 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->export()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-30 12:52:25 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->export()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-30 12:53:14 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->export()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-30 12:55:53 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->export()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-30 12:59:07 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->export()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-30 13:02:03 --> Cannot use object of type App\Entities\Transaction as array
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->export()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-30 13:14:14 --> Undefined variable $transaction
+#0 C:\xampp\htdocs\ci_onlineshooping\app\Views\transaction\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('transaction/ind...', Array, true)
+#4 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Transaction.php(37): view('transaction/ind...', Array)
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Transaction->index()
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-30 16:14:41 --> Call to undefined function bloginfo()
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('navbar', NULL, true)
+#3 C:\xampp\htdocs\ci_onlineshooping\app\Views\layout.php(41): CodeIgniter\View\View->include('navbar')
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout', Array, true)
+#7 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('hello/world', Array, true)
+#8 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Home.php(10): view('hello/world', Array)
+#9 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

@@ -1,0 +1,72 @@
+CRITICAL - 2021-12-27 12:40:02 --> register is not a validation rules group.
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('register')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('register')
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Auth.php(19): CodeIgniter\Validation\Validation->run(Array, 'register')
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 12:46:53 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_onlineshooping\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-27 14:13:33 --> Cannot declare class App\Models\BarangModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-27 14:14:08 --> Invalid file: product/index.php
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/index.p...')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Product.php(19): view('product/index', Array)
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Product->index()
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 14:16:08 --> Invalid file: product/index.php
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/index.p...')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Product.php(19): view('product/index', Array)
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Product->index()
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 14:57:39 --> Invalid file: product/index.php
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/index.p...')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('product/index', Array, true)
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Product.php(19): view('product/index', Array)
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Product->index()
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 15:03:07 --> Invalid file: product/update.php
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/update....')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('product/update', Array, true)
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Product.php(106): view('product/update', Array)
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Product->update('1')
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 15:07:40 --> Invalid file: product/update.php
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/update....')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('product/update', Array, true)
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Product.php(106): view('product/update', Array)
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Product->update('2')
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 15:07:46 --> Invalid file: product/update.php
+#0 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product/update....')
+#1 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('product/update', Array, true)
+#2 C:\xampp\htdocs\ci_onlineshooping\app\Controllers\Product.php(106): view('product/update', Array)
+#3 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Product->update('2')
+#4 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#5 C:\xampp\htdocs\ci_onlineshooping\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_onlineshooping\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
